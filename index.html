@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+    <nav>
+    </ul>
+    <center><font size="12">FORMULARIO</font><center>
+      
+  </ul>
+  </nav> 
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+  
+      <form action="" method="post" id='form'>
+    <h2 class="error" id="msj"></h2>
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre" id="nombre" required maxlength="45" />
+    
+    <br>
+    <h2 class="error" id="msj2"></h2>
+    <br>
+    <label for="apellido"> Apellido: </label>
+    <input type="text" name="apellido" id="apellido" >
+    
+    <br>
+    <h2 class="error" id="msj3"></h2>
+    <br>
+    <label for="email"> E-mail </label>
+    <input type="email" name="email" id="email">
+    
+    <br>
+    <h2 class="error" id="msj4"></h2>
+    <br>
+    <label for="passw"> Password </label>
+    <input type="password" name="pasw" id="password" >
+    <br><br><br>
+
+    </form>
+    
+    <form>
+
+      <label for="estado"> Estado Civil: </label>
+      <br><br>
+      <input type="checkbox" id="civil1" name="civil1" value="Soltero">
+      <label for="vehicle1"> Soltero</label><br>
+      <input type="checkbox" id="civil2" name="civil2" value="Casado">
+      <label for="vehicle2"> Casado</label><br>
+      <input type="checkbox" id="civil3" name="civil3" value="Divorciado">
+      <label for="vehicle3"> Divorciado </label>
+    </form>
+    <br><br>  
+    <form action="/action_page.php">
+      <label for="nacion">Nacionalidad :</label>
+      <br><br>
+
+      <select id="nacion" name="nacion">
+       <option value="----">----</option>
+        <option value="mexicana">Mexicana</option>
+        <option value="extrajenro ">Extrajenro</option>
+        <option value="nacionalizado">nacionalizado</option>
+        
+      </select>
+      
+    </form>
+    <br><br>
+    
+
+    
+    <form action="/action_page.php">
+      <textarea  id= "cuestio"name="message" rows="8" cols="70">.</textarea>
+      <br><br>
+     
+    </form>
+    
+       <br><br>
+    <button type="submit">Enviar</button>
+    
+    <style>
+      .error{
+        color: red;
+        font-size: 10px;
+        font-family: arial;
+      }
+    
+    </style>
+       
+    
+</html>

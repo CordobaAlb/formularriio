@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Indie+Flower&family=Kiwi+Maru:wght@300&family=Play&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    background-image:url('https://fondosmil.com/fondo/25823.jpg');
+}
+body{
+	width: 550px;
+	height: 690px;
+	margin: auto;
+	background-image:url('https://img.freepik.com/vector-gratis/fondo-desenfoque-color-pastel-elegante-suave_1017-33499.jpg');
+	padding: 5px;
+	font-family:  Arial;
+}
+
+
+nav{
+	width: 550px;
+	height:60px;
+	background-color: rgb(58, 202, 202);
+	margin-top: 5px;
+	
+}
+
